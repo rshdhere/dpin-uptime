@@ -5,6 +5,7 @@
   "exports": {
     "./client": "./src/index.ts"
   },
+  "exports:description": "this is how we can import our database in the entire monorepo",
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"
