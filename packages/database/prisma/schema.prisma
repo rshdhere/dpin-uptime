@@ -24,7 +24,8 @@ model Websites {
   userId String
 
   // foreign-key 
-  ticks websiteTicks[]
+  ticks    websiteTicks[]
+  disabled Boolean        @default(false)
 }
 
 model Validator {
